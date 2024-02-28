@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  margin-bottom: 10px;
+
+}
+
+.nav > * {
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 18%;
+  float: left;
+  box-sizing: border-box;
+  color:red;
+  margin-right: 10px;
+}
+
+.nav :nth-child(1) {
+  margin-left: 20px;
+}
+
+.nav select {
+  color: red;
+  margin-right: 30px;
+}
+
+section {
+  display: flex;
+  flex:1;
+  margin-bottom: 20px;
+
+  
+}
+.content-item{
+  color: red;
+  margin-right: 100px;
+  text-align: center;
+  border:1px solid white;
+}
+.content-item img {
+  width: 300px;
+  height: 300px;
+}
+
+.footer {
+  background-color:black;
+  color: red;
+  padding: 50px 20px;
+  
+}
+
+.footer-inner {
+  display: flex;
+  flex:1;
+  }
+.footer-inner div{
+  margin-left: 300px;
+  margin-bottom:20px;
+  
+  
+  
+}
+.footer-inner div h3{
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer-inner div:hover{
+  font-size: x-large;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  font-size: small;
+}
+
+.footer p{
+  color:red;
+}
+
+.nav div:hover{
+  font-size: x-large;
+}
+/* Media query for iPhone SE */
+@media only screen 
+  and (max-device-width: 356px) 
+  and (max-device-height: 667px) 
+{
+    header{
+      width:50%;
+    }
+    section{
+      flex-direction: column;
+      margin-left:100px;
+    }
+}
